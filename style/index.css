@@ -1,0 +1,786 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.up_header {
+    background: #000F9F;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.up_header h2 {
+    font-size: 13px;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.firstpage {
+    /* width: 100vw;
+    height: 98vh; */
+    background: url(../static/images/mainimages/backgraunds/Firstback.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    margin-left: 50%;
+    padding-top: 48px;
+}
+
+.name h1 { 
+    font-size: 66px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 108px;
+}
+
+.name p {
+    font-size: 24px;
+    margin-left: 108px;
+    margin-right: 111px;
+    font-weight: 400;
+    margin-top: 38px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name button {
+    margin-top: 35px;
+    margin-left: 108px;
+    width: 173px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+    font-size: 15px;
+}
+
+.header2 button{
+    background: #202020;
+    border-radius: 24px;
+    height: 48px;
+    width: 249px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media all and (max-width: 1024px) {
+    .firstpage {
+        width: 150%;
+    }
+    .up_header {
+        display: flex;
+        width: 150%;
+    }
+    .header {
+        width: 150%;
+    }
+    .header h1{
+        margin-left: 40px;
+    }
+    .icon1 {
+        margin-left: 490px;
+    }
+    .header2 {
+        width: 125%;
+    } 
+    .secondpage {
+        margin-left: 50px;
+    }
+    .page_3 {
+        margin-left: 150px;
+    }
+    .page_4 {
+        margin-left: 160px;
+    } 
+    .smw{
+        width: 150%;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .firstpage {
+        width: 210%;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 210%;
+    }
+    .header h1{
+        margin-left: 90px;
+    }
+    .icon1 {
+        margin-left: 520px;
+    }
+    .header2 {
+        width: 180%;
+    } 
+    .secondpage {
+        margin-left: 90px;
+    }
+    .page_3 {
+        margin-left: 190px;
+    }
+    .page_4 {
+        margin-left: 200px;
+    } 
+    .smw{
+        width: 210%;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 90px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .firstpage {
+        width: 340%;
+    }
+    .firstpage p {
+        font-size: 30px;
+    }
+    .firstpage button {
+        width: 400px;
+        height: 68px;
+        border-radius: 32px;
+        font-size: 34px;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 340%;
+    }
+    .header ul li {
+        font-size: 30px;
+    }
+    .header ul li:last-child {
+        font-size: 30px;
+        margin-right: 80px;
+    }
+    .header ul img {
+        width: 30px;
+        height: 30px;
+    }
+    .header h1{
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    .icon1 {
+        margin-left: 350px;
+    }
+    .header2 {
+        width: 276%;
+        margin-left: 150px;
+    } 
+    .header2 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .img2 span {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .ppa h2 {
+        margin-left: 20px;
+    }
+    .secondpage {
+        margin-left: 9px;
+    }
+    .secondpage p {
+        font-size: 40px; 
+        margin-left: 20px;
+    }
+    .secondpage button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .page_3 {
+        margin-left: 128px;
+    }
+    .page_33 h2 {
+        font-size: 70px;
+    }
+    .page_33 p {
+        font-size: 40px;
+    }
+    .page_33 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    }
+    .page_4 {
+        margin-left: 128px;
+    } 
+    .page_4 h2 {
+        font-size: 70px;
+    } 
+    .page_4 p {
+        font-size: 40px;
+    } 
+    .page_4 button {
+        height: 60px;
+        width: 460px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .smw{
+        width: 230%;
+    }
+    .text_5 p {
+        font-size: 28px;
+    }
+    .text_5 img {
+        width: 30px;
+        height: 30px;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 20px;
+    }
+    .lastp p {
+        font-size: 24px;
+    }
+    .lastp p:last-child {
+        font-size: 34px;
+    }
+    .lastp_2 p {
+        font-size: 24px;
+    }
+    .lastp_2 p:last-child {
+        font-size: 34px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .firstpage {
+        width: 385%;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 385%;
+    }
+    .header ul li {
+        font-size: 30px;
+    }
+    .header ul li:last-child {
+        font-size: 30px;
+        margin-right: 80px;
+    }
+    .header ul img {
+        width: 30px;
+        height: 30px;
+    }
+    .header h1{
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    .icon1 {
+        margin-left: 350px;
+    }
+    .header2 {
+        width: 315%;
+        margin-left: 150px;
+        margin-right: 260px;
+    } 
+    .header2 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .img2 span {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .ppa h2 {
+        margin-left: 20px;
+    }
+    .secondpage {
+        margin-left: 9px;
+    }
+    .secondpage p {
+        font-size: 40px; 
+        margin-left: 20px;
+    }
+    .secondpage button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .page_3 {
+        margin-left: 128px;
+    }
+    .page_33 h2 {
+        font-size: 70px;
+    }
+    .page_33 p {
+        font-size: 40px;
+    }
+    .page_33 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    }
+    .page_4 {
+        margin-left: 128px;
+    } 
+    .page_4 h2 {
+        font-size: 70px;
+    } 
+    .page_4 p {
+        font-size: 40px;
+    } 
+    .page_4 button {
+        height: 60px;
+        width: 460px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .smw{
+        width: 230%;
+    }
+    .text_5 p {
+        font-size: 28px;
+    }
+    .text_5 img {
+        width: 30px;
+        height: 30px;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 20px;
+    }
+    .lastp p {
+        font-size: 24px;
+    }
+    .lastp p:last-child {
+        font-size: 34px;
+    }
+    .lastp_2 p {
+        font-size: 24px;
+    }
+    .lastp_2 p:last-child {
+        font-size: 34px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .firstpage {
+        width: 400%;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 400%;
+    }
+    .header ul li {
+        font-size: 30px;
+    }
+    .header ul li:last-child {
+        font-size: 30px;
+        margin-right: 80px;
+    }
+    .header ul img {
+        width: 30px;
+        height: 30px;
+    }
+    .header h1{
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    .icon1 {
+        margin-left: 350px;
+    }
+    .header2 {
+        width: 315%;
+        margin-left: 150px;
+        margin-right: 260px;
+    } 
+    .header2 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .img2 span {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .ppa h2 {
+        margin-left: 20px;
+    }
+    .secondpage {
+        margin-left: 9px;
+    }
+    .secondpage p {
+        font-size: 40px; 
+        margin-left: 20px;
+    }
+    .secondpage button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .page_3 {
+        margin-left: 128px;
+    }
+    .page_33 h2 {
+        font-size: 70px;
+    }
+    .page_33 p {
+        font-size: 40px;
+    }
+    .page_33 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    }
+    .page_4 {
+        margin-left: 128px;
+    } 
+    .page_4 h2 {
+        font-size: 70px;
+    } 
+    .page_4 p {
+        font-size: 40px;
+    } 
+    .page_4 button {
+        height: 60px;
+        width: 460px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .smw{
+        width: 230%;
+    }
+    .text_5 p {
+        font-size: 28px;
+    }
+    .text_5 img {
+        width: 30px;
+        height: 30px;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 20px;
+    }
+    .lastp p {
+        font-size: 24px;
+    }
+    .lastp p:last-child {
+        font-size: 34px;
+    }
+    .lastp_2 p {
+        font-size: 24px;
+    }
+    .lastp_2 p:last-child {
+        font-size: 34px;
+    }
+}
+
+
+/* @media all and (max-width: 320px) {
+    .firstpage {
+        width: 400%;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 400%;
+    }
+    .header ul li {
+        font-size: 30px;
+    }
+    .header ul li:last-child {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    .header ul img {
+        width: 30px;
+        height: 30px;
+    }
+    .header h1{
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    .icon1 {
+        margin-left: 350px;
+    }
+    .header2 {
+        width: 315%;
+        margin-left: 150px;
+        margin-right: 260px;
+    } 
+    .header2 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .img2 span {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .ppa h2 {
+        margin-left: 20px;
+    }
+    .secondpage {
+        margin-left: 9px;
+    }
+    .secondpage p {
+        font-size: 40px; 
+        margin-left: 20px;
+    }
+    .secondpage button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .page_3 {
+        margin-left: 128px;
+    }
+    .page_33 h2 {
+        font-size: 70px;
+    }
+    .page_33 p {
+        font-size: 40px;
+    }
+    .page_33 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    }
+    .page_4 {
+        margin-left: 128px;
+    } 
+    .page_4 h2 {
+        font-size: 70px;
+    } 
+    .page_4 p {
+        font-size: 40px;
+    } 
+    .page_4 button {
+        height: 60px;
+        width: 460px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .smw{
+        width: 230%;
+    }
+    .text_5 p {
+        font-size: 28px;
+    }
+    .text_5 img {
+        width: 30px;
+        height: 30px;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 20px;
+    }
+    .lastp p {
+        font-size: 24px;
+    }
+    .lastp p:last-child {
+        font-size: 34px;
+    }
+    .lastp_2 p {
+        font-size: 24px;
+    }
+    .lastp_2 p:last-child {
+        font-size: 34px;
+    }
+} */
+
+/*@media all and (max-width: 320px) {
+    .firstpage {
+        width: 400%;
+    }
+    .up_header {
+        display: none;
+    }
+    .header {
+        width: 400%;
+    }
+    .header ul li {
+        font-size: 30px;
+    }
+    .header ul li:last-child {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    .header ul img {
+        width: 30px;
+        height: 30px;
+    }
+    .header h1{
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    .icon1 {
+        margin-left: 350px;
+    }
+    .header2 {
+        width: 315%;
+        margin-left: 150px;
+        margin-right: 260px;
+    } 
+    .header2 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .img2 span {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .ppa h2 {
+        margin-left: 20px;
+    }
+    .secondpage {
+        margin-left: 9px;
+    }
+    .secondpage p {
+        font-size: 40px; 
+        margin-left: 20px;
+    }
+    .secondpage button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .page_3 {
+        margin-left: 128px;
+    }
+    .page_33 h2 {
+        font-size: 70px;
+    }
+    .page_33 p {
+        font-size: 40px;
+    }
+    .page_33 button {
+        height: 60px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    }
+    .page_4 {
+        margin-left: 128px;
+    } 
+    .page_4 h2 {
+        font-size: 70px;
+    } 
+    .page_4 p {
+        font-size: 40px;
+    } 
+    .page_4 button {
+        height: 60px;
+        width: 460px;
+        font-size: 30px;
+        border-radius: 28px;
+        font-weight: 300;
+    } 
+    .smw{
+        width: 230%;
+    }
+    .text_5 p {
+        font-size: 28px;
+    }
+    .text_5 img {
+        width: 30px;
+        height: 30px;
+    }
+    .smw img{
+        width: 1200px;
+    }
+    .last {
+        margin-left: 20px;
+    }
+    .lastp p {
+        font-size: 24px;
+    }
+    .lastp p:last-child {
+        font-size: 34px;
+    }
+    .lastp_2 p {
+        font-size: 24px;
+    }
+    .lastp_2 p:last-child {
+        font-size: 34px;
+    }
+} */
